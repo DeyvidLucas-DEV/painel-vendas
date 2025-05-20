@@ -1,0 +1,21 @@
+id_cliente,nome,cpf,sexo,estado_civil,cidade,estado,faixa_etaria
+1,Paulo Gomes,523.108.967-21,Masculino,Solteiro,Cunha do Campo,PI,36-50
+2,André Castro,973.061.428-87,Masculino,Casado,Mendes,GO,36-50
+3,Carlos Eduardo da Rocha,536.098.247-00,Feminino,Viúvo,Freitas do Amparo,DF,26-35
+4,Davi Lucas Nunes,435.126.870-08,Masculino,Divorciado,Almeida Verde,ES,18-25
+5,Milena Pires,765.831.409-93,Masculino,Divorciado,Aragão,RO,18-25
+6,Luiza Souza,786.430.512-17,Masculino,Casado,Moreira de Pereira,RR,26-35
+7,Marcela Caldeira,304.529.861-33,Masculino,Casado,da Mata,AM,36-50
+8,Renan Martins,701.964.253-52,Masculino,Divorciado,Campos de Minas,SC,18-25
+9,Miguel Duarte,217.640.583-80,Feminino,Solteiro,Pinto,MA,26-35
+10,Pedro Miguel da Rocha,509.876.413-01,Masculino,Solteiro,Fernandes,PR,18-25
+11,Guilherme Lopes,319.065.247-34,Masculino,Viúvo,Nunes de Martins,SP,51+
+12,Erick da Paz,804.193.762-40,Masculino,Solteiro,Gonçalves,RO,36-50
+13,Sra. Alexia Fogaça,549.638.271-82,Masculino,Divorciado,Freitas,BA,51+
+14,Amanda da Paz,971.320.856-03,Masculino,Divorciado,Moura,PI,36-50
+15,Marcos Vinicius Lopes,176.435.089-84,Masculino,Divorciado,Santos do Sul,AP,26-35
+16,Otávio Moura,725.934.601-99,Masculino,Solteiro,Cavalcanti do Sul,SP,36-50
+17,Benjamin Porto,645.381.270-35,Feminino,Viúvo,Gomes das Flores,AL,36-50
+18,Sophie Porto,863.752.091-02,Masculino,Solteiro,Lopes,GO,26-35
+19,Isabel da Conceição,372.564.091-25,Feminino,Viúvo,Rezende do Oeste,RO,36-50
+20,Guilherme Aragão,347.582.601-17,Feminino,Solteiro,Fernandes do Campo,CE,18-25

@@ -1,0 +1,6 @@
+id_fornecedor,nome,cnpj,cidade,estado,categoria_fornecedor
+1,da Luz,82.403.179/0001-92,da Rocha Verde,MS,Importado
+2,da Rocha,41.370.952/0001-84,Aragão de Ramos,PI,Importado
+3,Carvalho,24.379.851/0001-55,Jesus do Oeste,RO,Nacional
+4,Jesus,03.142.685/0001-07,Santos,PE,Importado
+5,Moraes Souza e Filhos,46.130.298/0001-55,Ferreira,ES,Importado

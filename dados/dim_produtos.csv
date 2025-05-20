@@ -1,0 +1,11 @@
+id_produto,nome,categoria,preco_padrao,id_fornecedor,estoque_disponivel
+1,iPhone 14,Notebook,2934.51,5,98
+2,Samsung Galaxy S23,Geladeira,6679.64,2,58
+3,MacBook Air,TV,5257.96,4,68
+4,Notebook Dell,Impressora,4391.28,2,51
+5,TV LG 50',Headset,1514.12,4,69
+6,Geladeira Brastemp,Notebook,1513.96,5,89
+7,Cadeira Gamer ThunderX,TV,877.54,1,24
+8,Headset Logitech,Monitor,6130.14,4,71
+9,Monitor Samsung,Smartphone,4407.25,2,71
+10,Impressora HP,Monitor,5102.47,5,56
