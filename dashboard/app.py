@@ -11,16 +11,29 @@ from etl.transformacao import carregar_dados
 # ✅ TÍTULO DA PÁGINA DO NAVEGADOR
 st.set_page_config(
     page_title="Painel Analítico de Vendas",
-    page_icon="📊",
+    page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-
+# 🌟 Sidebar decorada
 df = carregar_dados()
+with st.sidebar:
+    st.markdown("## 👋 Bem-vindo(a)!")
+    st.markdown("### 📈 Painel Analítico de Vendas")
+    st.image("https://img.icons8.com/color/96/analytics.png", width=80)
+    st.markdown("---")
+    st.markdown("#### 🧱 Navegação")
+    aba = st.selectbox("Escolha uma aba", ["📈 Vendas", "🛒 Produtos e Clientes", "📍 Relatórios"])
+    st.markdown("---")
+    st.markdown("##### 📅 Atualizado em:")
+    st.caption("20 de Maio de 2025")
+    st.markdown("##### 👨‍💻 Desenvolvido por:")
+    st.markdown("**Deyvid** & **Marcelo**")
+    st.markdown("---")
+    st.caption("Powered by Python 🐍 + Streamlit 🚀")
 
-st.title("Painel Analítico de Vendas")
-aba = st.sidebar.selectbox("Selecione a aba:", ["📈 Vendas", "🛒 Produtos e Clientes", "📍 Relatórios"])
+    st.title("Painel Analítico de Vendas")
 
 # 📈 Aba de Vendas
 if aba == "📈 Vendas":
@@ -193,3 +206,9 @@ elif aba == "📍 Relatórios":
                       title="🏅 Receita por Equipe de Vendas", template="plotly_white",
                       color="receita_liquida", text_auto=".2s")
         st.plotly_chart(fig6, use_container_width=True)
+
+# Assinatura no rodapé
+df["valor_total"] = df["quantidade"] * df["valor_unitario"]  # redundante mas garante consistência
+st.markdown("---")
+st.markdown("#### 🛠️ Desenvolvido por **Deyvid** & **Marcelo** com 💡 e Python 🐍")
+
